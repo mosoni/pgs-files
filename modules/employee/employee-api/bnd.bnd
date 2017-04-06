@@ -1,0 +1,9 @@
+Bundle-Name: employee-api
+Bundle-SymbolicName: com.liferay.employee.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.liferay.employee.exception,\
+	com.liferay.employee.model,\
+	com.liferay.employee.service,\
+	com.liferay.employee.service.persistence
+-includeresource: META-INF/service.xml=../employee-service/service.xml
